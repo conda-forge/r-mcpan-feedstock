@@ -15,8 +15,8 @@ source:
   sha256: a1a8e04ce53447d82e5e3889b90a0e22fb06ac80e2b3cee54fb808845e073560
 
 build:
-  number: 0
-  skip: true  # [win32]
+  noarch: generic
+  number: 1000
   rpaths:
     - lib/R/lib/
     - lib/
@@ -52,8 +52,7 @@ about:
     data)  and expected values under lognormal assumption. Approximative power  calculation
     for multiple contrast tests of binomial and Gaussian data.
   license_family: GPL2
-  license_file: '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2'  # [unix]
-  license_file: '{{ environ["PREFIX"] }}\R\share\licenses\GPL-2'  # [win]
+  license_file: '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2'
 
 extra:
   recipe-maintainers:
