@@ -1,11 +1,11 @@
-About r-mcpan
-=============
+About r-mcpan-feedstock
+=======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-mcpan-feedstock/blob/main/LICENSE.txt)
 
 Home: https://CRAN.R-project.org/package=MCPAN
 
 Package license: GPL-2.0-only
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-mcpan-feedstock/blob/main/LICENSE.txt)
 
 Summary: Multiple contrast tests and simultaneous confidence intervals based on normal approximation. With implementations for binomial proportions in a 2xk setting (risk difference and odds ratio), poly-3-adjusted tumour rates, biodiversity indices (multinomial data)  and expected values under lognormal assumption. Approximative power  calculation for multiple contrast tests of binomial and Gaussian data.
 
